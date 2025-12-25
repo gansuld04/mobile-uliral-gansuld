@@ -97,7 +97,7 @@ class ApplicationState extends ChangeNotifier {
     });
   }
 
-  // ← ШИНЭ ФУНКЦ: FCM Token-г Firebase-д хадгалах
+  //FCM Token-г Firebase-д хадгалах
   Future<void> _saveFCMToken() async {
     if (_fcmToken == null || !_loggedIn) return;
 
